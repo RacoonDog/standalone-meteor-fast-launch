@@ -1,24 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "fastlaunch",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "Standalone Meteor Fast Launch",
   "authors": [
-    "seasnail"
+    "Crosby"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "sources": "https://github.com/RacoonDog/standalone-meteor-fast-launch",
+    "repo": "https://github.com/RacoonDog/standalone-meteor-fast-launch",
+    "issues": "https://github.com/RacoonDog/standalone-meteor-fast-launch/issues"
   },
-  "icon": "assets/template/icon.png",
+  "icon": "assets/fastlaunch/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "io.github.racoondog.fastlaunch.FastLaunch"
     ]
   },
   "mixins": [
-    "addon.mixins.json"
+    "fastlaunch.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"
@@ -27,5 +28,8 @@
     "java": ">=17",
     "minecraft": ">=${mc_version}",
     "meteor-client": "*"
+  },
+  "breaks": {
+    "electron": "*"
   }
 }

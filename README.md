@@ -1,8 +1,3 @@
-# Meteor Addon Template
+# Standalone Meteor Fast Launch
 
-A template to allow easy usage of the Meteor Addon API.
-
-### How to use:  
-- Clone this project
-- Use this template to create new modules/commands
-- Run the mod with Meteor.
+Standalone version of the [Electron](https://github.com/RacoonDog/Electron) Loading time optimisations.

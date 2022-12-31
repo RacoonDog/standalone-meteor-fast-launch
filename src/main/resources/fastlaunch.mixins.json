@@ -1,8 +1,10 @@
 {
   "required": true,
-  "package": "com.example.addon.mixin",
+  "package": "io.github.racoondog.fastlaunch.mixin",
   "compatibilityLevel": "JAVA_17",
-  "client": [],
+  "client": [
+    "ReflectInitMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }
